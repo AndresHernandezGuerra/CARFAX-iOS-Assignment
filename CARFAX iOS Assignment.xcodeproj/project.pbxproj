@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		796F0F23230921B30079F426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F22230921B30079F426 /* AppDelegate.swift */; };
-		796F0F25230921B30079F426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F24230921B30079F426 /* ViewController.swift */; };
+		796F0F25230921B30079F426 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F24230921B30079F426 /* MainViewController.swift */; };
 		796F0F28230921B30079F426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796F0F26230921B30079F426 /* Main.storyboard */; };
 		796F0F2A230921B50079F426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796F0F29230921B50079F426 /* Assets.xcassets */; };
 		796F0F2D230921B50079F426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796F0F2B230921B50079F426 /* LaunchScreen.storyboard */; };
+		796F0F352309BBF20079F426 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F342309BBF20079F426 /* CarCell.swift */; };
+		796F0F37230A37610079F426 /* CarDetailedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F36230A37610079F426 /* CarDetailedInfo.swift */; };
+		796F0F3A230A380A0079F426 /* DealerDetailedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		796F0F1F230921B30079F426 /* CARFAX iOS Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CARFAX iOS Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796F0F22230921B30079F426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		796F0F24230921B30079F426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		796F0F24230921B30079F426 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		796F0F27230921B30079F426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		796F0F29230921B50079F426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		796F0F2C230921B50079F426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796F0F2E230921B50079F426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796F0F342309BBF20079F426 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		796F0F36230A37610079F426 /* CarDetailedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailedInfo.swift; sourceTree = "<group>"; };
+		796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailedInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				796F0F22230921B30079F426 /* AppDelegate.swift */,
-				796F0F24230921B30079F426 /* ViewController.swift */,
+				796F0F24230921B30079F426 /* MainViewController.swift */,
+				796F0F38230A37E90079F426 /* Model */,
+				796F0F342309BBF20079F426 /* CarCell.swift */,
 				796F0F26230921B30079F426 /* Main.storyboard */,
 				796F0F29230921B50079F426 /* Assets.xcassets */,
 				796F0F2B230921B50079F426 /* LaunchScreen.storyboard */,
 				796F0F2E230921B50079F426 /* Info.plist */,
 			);
 			path = "CARFAX iOS Assignment";
+			sourceTree = "<group>";
+		};
+		796F0F38230A37E90079F426 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				796F0F36230A37610079F426 /* CarDetailedInfo.swift */,
+				796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796F0F25230921B30079F426 /* ViewController.swift in Sources */,
+				796F0F352309BBF20079F426 /* CarCell.swift in Sources */,
+				796F0F25230921B30079F426 /* MainViewController.swift in Sources */,
+				796F0F3A230A380A0079F426 /* DealerDetailedInfo.swift in Sources */,
+				796F0F37230A37610079F426 /* CarDetailedInfo.swift in Sources */,
 				796F0F23230921B30079F426 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
