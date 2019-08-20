@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CARFAX iOS Assignment/MainViewController.swift"
+            timestampString = "587927364.192615"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CARFAX_iOS_Assignment.MainViewController.arrayCarListings.getter : Swift.Array&lt;Swift.Optional&lt;CARFAX_iOS_Assignment.CarDetails&gt;&gt;"
+                  moduleName = "CARFAX iOS Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.hernandez/iOS-Tests/CARFAX%20iOS%20Assignment/CARFAX%20iOS%20Assignment/MainViewController.swift"
+                  timestampString = "587878088.744212"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CARFAX_iOS_Assignment.MainViewController.arrayCarListings.setter : Swift.Array&lt;Swift.Optional&lt;CARFAX_iOS_Assignment.CarDetails&gt;&gt;"
+                  moduleName = "CARFAX iOS Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.hernandez/iOS-Tests/CARFAX%20iOS%20Assignment/CARFAX%20iOS%20Assignment/MainViewController.swift"
+                  timestampString = "587878088.7477601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CARFAX_iOS_Assignment.MainViewController.arrayCarListings.modify : Swift.Array&lt;Swift.Optional&lt;CARFAX_iOS_Assignment.CarDetails&gt;&gt;"
+                  moduleName = "CARFAX iOS Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.hernandez/iOS-Tests/CARFAX%20iOS%20Assignment/CARFAX%20iOS%20Assignment/MainViewController.swift"
+                  timestampString = "587878088.752201"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CARFAX_iOS_Assignment.MainViewController.arrayCarListings.modify : Swift.Array&lt;Swift.Optional&lt;CARFAX_iOS_Assignment.CarDetails&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CARFAX iOS Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.hernandez/iOS-Tests/CARFAX%20iOS%20Assignment/CARFAX%20iOS%20Assignment/MainViewController.swift"
+                  timestampString = "587878088.765005"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CARFAX_iOS_Assignment.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CARFAX_iOS_Assignment.MainViewController"
+                  moduleName = "CARFAX iOS Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.hernandez/iOS-Tests/CARFAX%20iOS%20Assignment/CARFAX%20iOS%20Assignment/MainViewController.swift"
+                  timestampString = "587878088.770117"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "622">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CARFAX_iOS_Assignment.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CARFAX_iOS_Assignment.MainViewController&gt;"
+                  moduleName = "CARFAX iOS Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.hernandez/iOS-Tests/CARFAX%20iOS%20Assignment/CARFAX%20iOS%20Assignment/MainViewController.swift"
+                  timestampString = "587878088.774325"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "542">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CARFAX iOS Assignment/MainViewController.swift"
+            timestampString = "587927364.193122"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

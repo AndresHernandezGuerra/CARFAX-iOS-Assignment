@@ -15,6 +15,8 @@
 		796F0F352309BBF20079F426 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F342309BBF20079F426 /* CarCell.swift */; };
 		796F0F37230A37610079F426 /* CarDetailedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F36230A37610079F426 /* CarDetailedInfo.swift */; };
 		796F0F3A230A380A0079F426 /* DealerDetailedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */; };
+		796F0F3C230A3F470079F426 /* CarListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F3B230A3F470079F426 /* CarListings.swift */; };
+		796F0F40230B15080079F426 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F3F230B15080079F426 /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		796F0F342309BBF20079F426 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
 		796F0F36230A37610079F426 /* CarDetailedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailedInfo.swift; sourceTree = "<group>"; };
 		796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailedInfo.swift; sourceTree = "<group>"; };
+		796F0F3B230A3F470079F426 /* CarListings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListings.swift; sourceTree = "<group>"; };
+		796F0F3F230B15080079F426 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				796F0F22230921B30079F426 /* AppDelegate.swift */,
-				796F0F24230921B30079F426 /* MainViewController.swift */,
+				796F0F3E230B14F50079F426 /* View */,
+				796F0F3D230B14BD0079F426 /* Controller */,
 				796F0F38230A37E90079F426 /* Model */,
-				796F0F342309BBF20079F426 /* CarCell.swift */,
 				796F0F26230921B30079F426 /* Main.storyboard */,
 				796F0F29230921B50079F426 /* Assets.xcassets */,
 				796F0F2B230921B50079F426 /* LaunchScreen.storyboard */,
@@ -77,8 +81,26 @@
 			children = (
 				796F0F36230A37610079F426 /* CarDetailedInfo.swift */,
 				796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */,
+				796F0F3B230A3F470079F426 /* CarListings.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		796F0F3D230B14BD0079F426 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				796F0F24230921B30079F426 /* MainViewController.swift */,
+				796F0F342309BBF20079F426 /* CarCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		796F0F3E230B14F50079F426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				796F0F3F230B15080079F426 /* DesignableView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				796F0F352309BBF20079F426 /* CarCell.swift in Sources */,
+				796F0F3C230A3F470079F426 /* CarListings.swift in Sources */,
 				796F0F25230921B30079F426 /* MainViewController.swift in Sources */,
 				796F0F3A230A380A0079F426 /* DealerDetailedInfo.swift in Sources */,
+				796F0F40230B15080079F426 /* DesignableView.swift in Sources */,
 				796F0F37230A37610079F426 /* CarDetailedInfo.swift in Sources */,
 				796F0F23230921B30079F426 /* AppDelegate.swift in Sources */,
 			);
@@ -312,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.ash79.CARFAX-iOS-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.ash79.CARFAX-iOS-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

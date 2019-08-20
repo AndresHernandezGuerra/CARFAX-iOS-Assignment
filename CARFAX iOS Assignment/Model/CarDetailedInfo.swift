@@ -48,6 +48,6 @@ struct CarImages: Codable {
     let mediumPhoto             :       String?
     
     enum CodingKeys: String, CodingKey {
-        case mediumPhoto        =       "medium"
+        case mediumPhoto        =       "large"
     }
 }
