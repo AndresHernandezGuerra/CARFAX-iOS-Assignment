@@ -1,6 +1,6 @@
 # CARFAX iOS Assignment App
 
-This is an iOS app built for CARFAX that display a feed of used cars. The app was completely built in Swift. 
+This is an iOS app built for CARFAX that displays a feed of used cars. The app was completely built in Swift. 
 Basic information about each listing is displayed, such as the main car picture, model, price, mileage, dealer 
 location, and phone number.
 
