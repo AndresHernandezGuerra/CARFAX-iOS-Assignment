@@ -17,12 +17,18 @@ class MainViewController: UIViewController, UITableViewDataSource, UITabBarDeleg
     
     var arrayCarListings = [CarDetails?]()
     
+    public var activityView = UIActivityIndicatorView(style: .whiteLarge)
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        activityView.frame = CGRect(x: self.view.bounds.midX - 50, y: self.view.bounds.midY + 65, width: 100, height: 100)
+        self.view.addSubview(activityView)
+        activityView.startAnimating()
+        
         getCarListings()
         setupTableView()
-        
     }
     
     private func setupTableView() {
@@ -41,7 +47,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITabBarDeleg
                 do {
                     let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String:Any]
                     self.carListings = json["listings"] as? [[String: Any]] ?? []
-                    //print(self.carListings.count)
                 } catch let error as NSError {
                     print(error)
                 }
@@ -76,6 +81,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITabBarDeleg
                 }
                 
                 DispatchQueue.main.async {
+                    self.activityView.stopAnimating()
                     self.setupTableView()
                 }
                 
@@ -88,7 +94,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITabBarDeleg
         if let currentCarDetails = self.arrayCarListings[indexPath.row] as CarDetails?{
             
             carCell.detailedOne.text = "\(currentCarDetails.carYear ??? "N/A") \(currentCarDetails.carMake ?? "N/A") \(currentCarDetails.carModel ?? "N/A")"
-            
             
             // Number formater to add commas where needed for thousands and greater values
             let numberFormatter = NumberFormatter()
@@ -121,7 +126,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITabBarDeleg
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if self.arrayCarListings.count == 0 {
-            self.listingsTableView.setEmptyMessage("Used Car Listings\n\nNo data yet")
+            self.listingsTableView.setEmptyMessage("Used Car Listings Loading\n\nGathering Data From Server\n\nPlease Wait")
         } else {
             self.listingsTableView.restore()
         }
@@ -163,13 +168,13 @@ extension UITableView {
         let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
         messageLabel.text = message
         messageLabel.textColor = .black
-        messageLabel.numberOfLines = 0;
-        messageLabel.textAlignment = .center;
+        messageLabel.numberOfLines = 0
+        messageLabel.textAlignment = .center
         messageLabel.font = UIFont.systemFont(ofSize: 15)
         messageLabel.sizeToFit()
         
         self.backgroundView = messageLabel;
-        self.separatorStyle = .none;
+        self.separatorStyle = .none
     }
     
     func restore() {
