@@ -8,6 +8,7 @@
 
 import Foundation
 
+// MARK: - Car Properties 
 struct CarDetails: Codable {
     
     let listingID               :       String?
@@ -33,6 +34,7 @@ struct CarDetails: Codable {
     }
 }
 
+// MARK: - Struct to Access All Photos
 struct CarThumbnail: Codable {
     
     let firstPhoto              :       CarImages?
@@ -42,12 +44,12 @@ struct CarThumbnail: Codable {
     }
 }
 
-
+// MARK: - Struct to Access Specific Photo
 struct CarImages: Codable {
     
-    let mediumPhoto             :       String?
+    let largePhoto             :       String?
     
     enum CodingKeys: String, CodingKey {
-        case mediumPhoto        =       "large"
+        case largePhoto        =       "large"
     }
 }

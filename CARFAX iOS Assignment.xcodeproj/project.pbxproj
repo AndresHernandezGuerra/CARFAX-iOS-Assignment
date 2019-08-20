@@ -15,7 +15,6 @@
 		796F0F352309BBF20079F426 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F342309BBF20079F426 /* CarCell.swift */; };
 		796F0F37230A37610079F426 /* CarDetailedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F36230A37610079F426 /* CarDetailedInfo.swift */; };
 		796F0F3A230A380A0079F426 /* DealerDetailedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */; };
-		796F0F3C230A3F470079F426 /* CarListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F3B230A3F470079F426 /* CarListings.swift */; };
 		796F0F40230B15080079F426 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F0F3F230B15080079F426 /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		796F0F342309BBF20079F426 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
 		796F0F36230A37610079F426 /* CarDetailedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailedInfo.swift; sourceTree = "<group>"; };
 		796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailedInfo.swift; sourceTree = "<group>"; };
-		796F0F3B230A3F470079F426 /* CarListings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListings.swift; sourceTree = "<group>"; };
 		796F0F3F230B15080079F426 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +79,6 @@
 			children = (
 				796F0F36230A37610079F426 /* CarDetailedInfo.swift */,
 				796F0F39230A380A0079F426 /* DealerDetailedInfo.swift */,
-				796F0F3B230A3F470079F426 /* CarListings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,7 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				796F0F352309BBF20079F426 /* CarCell.swift in Sources */,
-				796F0F3C230A3F470079F426 /* CarListings.swift in Sources */,
 				796F0F25230921B30079F426 /* MainViewController.swift in Sources */,
 				796F0F3A230A380A0079F426 /* DealerDetailedInfo.swift in Sources */,
 				796F0F40230B15080079F426 /* DesignableView.swift in Sources */,

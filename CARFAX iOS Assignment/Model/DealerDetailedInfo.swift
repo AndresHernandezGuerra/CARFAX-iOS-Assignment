@@ -8,6 +8,7 @@
 
 import Foundation
 
+// MARK: - Dealer Properties
 struct DealerDetails: Codable {
     
     let name                    :       String?
